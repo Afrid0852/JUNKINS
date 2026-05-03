@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building project...'
-                sh 'echo Hello from Jenkins Build Stage'
+                sh 'echo Hello from Jenkins'
             }
         }
 
